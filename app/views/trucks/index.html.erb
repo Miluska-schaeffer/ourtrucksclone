@@ -1,14 +1,18 @@
 <div class="container mt-5">
-  
+
   <h2>Check out the trucks up for rent around you!</h2>
-  
-  <%= render "trucks/map" %>
-  
+
+
   <div>
     <%= render "trucks/search_bar" %>
   </div>
 
   <%= render "cards" %>
+
+
+
+
+  <%= render "trucks/map" %>
 
   <div class="link">
     <%= link_to "Offer your truck", new_truck_path, class: "btn btn-success" %>
